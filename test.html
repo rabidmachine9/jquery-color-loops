@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+    <script type="text/javascript" src="jquery.color.js"></script>
+    <script type="text/javascript" src="jquery-color-loops.js"></script>
+    <script type="text/javascript">
+      $(function($){
+	  $('body').loop(2000, '#ff0000', '#00ff00', '#0000ff', '#ffff00');
+
+	  //or as an array $('body').loop(2000, ['#ff0000', '#00ff00', '#0000ff', '#ffff00']);
+      });
+    </script>
+    <style type="text/css" media="screen">
+      .some_name{
+          background-color:#000;
+      }
+
+    </style>
+  </head>
+  <body>
+    </body>
+
+</html>
